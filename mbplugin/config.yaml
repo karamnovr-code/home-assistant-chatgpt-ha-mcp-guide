@@ -1,0 +1,17 @@
+name: MBPlugin
+version: "1.00.92-1"
+slug: mbplugin
+description: "Mobile operator balance and package monitoring via MBPlugin"
+url: https://github.com/artyl/mbplugin
+arch:
+  - amd64
+startup: application
+boot: auto
+init: false
+ports:
+  "19777/tcp": 19777
+ports_description:
+  "19777/tcp": MBPlugin web interface
+webui: "http://[HOST]:[PORT:19777]"
+panel_icon: mdi:sim
+stage: experimental
