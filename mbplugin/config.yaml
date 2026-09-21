@@ -1,5 +1,5 @@
 name: MBPlugin
-version: "1.00.92-1"
+version: "1.00.92-2"
 slug: mbplugin
 description: "Mobile operator balance and package monitoring via MBPlugin"
 url: https://github.com/artyl/mbplugin
